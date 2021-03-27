@@ -6,7 +6,7 @@ The proposed framework belongs to hybrid recommendation systems. The core idea o
 
 To implement the BPR algorithm, please refer to [BPR](https://implicit.readthedocs.io/en/latest/bpr.html). We got the inspirations in part from the DeepCF model, which can be found at  [DeepCF](https://github.com/familyld/DeepCF). Many thanks to the authors. 
 
-The dataset YahooR2 music dataset can be downloaded at [Yahoo! R2](https://webscope.sandbox.yahoo.com/). You need to download the data, explore it, and preprocess the data by yourself.
+The dataset YahooR2 music dataset can be downloaded at [Yahoo! R2](https://webscope.sandbox.yahoo.com/). You need to download the data, explore it, and preprocess the data by yourself. The configuration of ICRC platform is confidential and is not released here.
 
 # requirements
 - Python 3
