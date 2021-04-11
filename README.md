@@ -22,4 +22,4 @@ The dataset YahooR2 music dataset can be downloaded at [Yahoo! R2](https://websc
 - load_eval_run.py: load saved model and evaluate the performance.
 - utils.py: some helpful functions
 
-If you find the code useful, please cite our paper.
+If you find the code useful, please cite our paper "F2DeepRS: A Deep Recommendation Framework Applied to ICRC Platform".
