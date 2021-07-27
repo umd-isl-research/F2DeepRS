@@ -24,11 +24,11 @@ The dataset YahooR2 music dataset can be downloaded at [Yahoo! R2](https://websc
 
 If you find the code useful, please cite our paper "F2DeepRS: A Deep Recommendation Framework Applied to ICRC Platform":
 
-@inproceedings{xie2021f2deeprs,
-  title={F2DeepRS: A Deep Recommendation Framework Applied to ICRC Platforms},  
-  author={Xie, Yongquan and Tseng, Finn and Johannes, Kristinsson and Qiu, Shiqi and Murphey, Yi Lu},  
-  booktitle={International Conference on Industrial, Engineering and Other Applications of Applied Intelligent Systems},  
-  pages={3--14},  
-  year={2021},  
-  organization={Springer}  
+@inproceedings{xie2021f2deeprs,\
+  title={F2DeepRS: A Deep Recommendation Framework Applied to ICRC Platforms},\
+  author={Xie, Yongquan and Tseng, Finn and Johannes, Kristinsson and Qiu, Shiqi and Murphey, Yi Lu},\
+  booktitle={International Conference on Industrial, Engineering and Other Applications of Applied Intelligent Systems},\
+  pages={3--14},\
+  year={2021},\
+  organization={Springer}\
 }
