@@ -2,11 +2,13 @@ This is the code for the paper
 # F2DeepRS: A Deep Recommendation Framework Applied to ICRC Platform
 accepted by _the 34th International Conference on Industrial, Engineering & Other Applications of Applied Intelligent Systems_ (IEA/AIE 2021).
 
-The proposed framework belongs to hybrid recommendation systems. The core idea of the F2DeepRS framework is to leverage well-trained user, item or content latent representations and learn the matching function. With this idea, the model can learn faster and is more efficienct in calculation/referencing, and is thus applicable to environtments where calculation resources is not sufficient, in our case, the Information and computational resource constrained (ICRC) platform.
+The proposed framework belongs to hybrid recommendation systems. The core idea of the F2DeepRS framework is to leverage well-trained user, item or content latent representations and learn the matching function. The model we built runs much faster in calculation/referencing (saved 70% time), and is thus applicable to environtments where calculation resources is not sufficient, in our case, the Information and computational resource constrained (ICRC) platform.
 
-To implement the BPR algorithm, please refer to [BPR](https://implicit.readthedocs.io/en/latest/bpr.html). We got the inspirations in part from the DeepCF model, which can be found at  [DeepCF](https://github.com/familyld/DeepCF). Many thanks to the authors. 
+To implement the BPR algorithm, please refer to [BPR](https://implicit.readthedocs.io/en/latest/bpr.html). We got the inspirations in part from the DeepCF model, which can be found at  [DeepCF](https://github.com/familyld/DeepCF). Many thanks to the authors. Please be advised that the dataset for learning user/item representations and the dataset for learning the matching function are different. For details refer to our paper.
 
-The dataset YahooR2 music dataset can be downloaded at [Yahoo! R2](https://webscope.sandbox.yahoo.com/). You need to download the data, explore it, and preprocess the data by yourself. The configuration of ICRC platform is confidential and is not released here.
+The dataset YahooR2 music dataset can be downloaded at [Yahoo! R2](https://webscope.sandbox.yahoo.com/). You need to download the data, explore it, and preprocess the data by yourself.
+
+The configuration of the ICRC platform, and any details related to the in-vehicle deployment are confidential due to our internal confidential protocals. They are therefore not released here.
 
 # requirements
 - Python 3
